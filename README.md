@@ -6,7 +6,7 @@ We compute this factor by dividing the last value of one time period by the firs
 
 ### Limitations:
 
-As mentioned, pytrends returns values between 0-100 and we adjust each period by looking at the overlapping dates of each 90-day timeframe. if either one of the overlapping values is 0 the resulting factor is not valid. Should both values be 0, we set the factor to 1 and should only one of the values be 0 we set it to 0.5 in order to compute the factor.
+As mentioned, pytrends returns values between 0-100 and we adjust each period by looking at the overlapping dates of each 90-day timeframe. if either one of the overlapping values is 0 the resulting factor is not valid. Should both values be 0, we set the factor to 1 and should only one of the values be 0 we set this value to 0.5 in order to compute the factor.
 
 
 ### How To Use:
